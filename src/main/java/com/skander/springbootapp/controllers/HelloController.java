@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/hello")
-public class HomeController {
-    public HomeController() {
+public class HelloController {
+    public HelloController() {
     }
 
     @GetMapping
